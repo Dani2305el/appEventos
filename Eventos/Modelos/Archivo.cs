@@ -8,13 +8,12 @@ namespace Eventos.Modelos
 {
     public class Archivo
     {
-        public Archivo()
-        {
+        private String ruta, archivo;
 
-        }
-        public void ret()
+        public Archivo(string ruta, string archivo)
         {
-
+            this.ruta = ruta;
+            this.archivo = archivo;
         }
     }
 }
