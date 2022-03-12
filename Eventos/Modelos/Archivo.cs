@@ -8,12 +8,24 @@ namespace Eventos.Modelos
 {
     public class Archivo
     {
-        private String ruta, archivo;
+        private String ruta, nombreArchivo;
 
-        public Archivo(string ruta, string archivo)
+        public Archivo(string ruta, string nombreArchivo)
         {
             this.ruta = ruta;
-            this.archivo = archivo;
+            this.nombreArchivo = nombreArchivo;
         }
+
+        public string Ruta    // the Name property
+        {
+            get => ruta;
+            set => ruta = value;
+        }
+        public string NombreArchivo    // the Name property
+        {
+            get => nombreArchivo;
+            set => nombreArchivo = value;
+        }
+
     }
 }
