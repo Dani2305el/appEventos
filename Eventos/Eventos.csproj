@@ -60,14 +60,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Definiciones\ILectorDeArchivo.cs" />
+    <Compile Include="Definiciones\IProcesadorOcurrenciaDeEventos.cs" />
     <Compile Include="Definiciones\ISeparadorDeLineasExtraidas.cs" />
     <Compile Include="Definiciones\IValidadorFormatoDeFecha.cs" />
     <Compile Include="Definiciones\IValidadorLongitudNombreDeEvento.cs" />
+    <Compile Include="Definiciones\IVisualizadorDeEventos.cs" />
     <Compile Include="Implementaciones\LectorDeArchivo.cs" />
     <Compile Include="Implementaciones\ProcesadorDeLineasSeparadas.cs" />
+    <Compile Include="Implementaciones\ProcesadorOcurrenciaDeEventos.cs" />
     <Compile Include="Implementaciones\SeparadorDeLineasExtraidas.cs" />
     <Compile Include="Implementaciones\ValidadorFromatoDeFecha.cs" />
     <Compile Include="Implementaciones\ValidadorLongitudNombreDeEvento.cs" />
+    <Compile Include="Implementaciones\VisualizadorDeEventos.cs" />
     <Compile Include="Modelos\Archivo.cs" />
     <Compile Include="Modelos\Evento.cs" />
     <Compile Include="Program.cs" />

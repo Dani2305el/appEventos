@@ -10,8 +10,11 @@ namespace Eventos
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Hola");
+            DateTime fechaACtual = DateTime.Now;
+            Console.WriteLine(fechaACtual.ToString());
+            DateTime fechaSimulada = fechaACtual.AddHours(10);
+            Console.WriteLine(fechaSimulada.ToString());
+            Console.WriteLine((fechaSimulada - fechaACtual).TotalHours);
             Console.ReadLine();
            
         }
