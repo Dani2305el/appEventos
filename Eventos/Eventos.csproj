@@ -59,7 +59,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Definiciones\ILectorDeArchivo.cs" />
+    <Compile Include="Definiciones\ISeparadorDeLineasExtraidas.cs" />
+    <Compile Include="Definiciones\IValidadorFormatoDeFecha.cs" />
+    <Compile Include="Definiciones\IValidadorLongitudNombreDeEvento.cs" />
+    <Compile Include="Implementaciones\LectorDeArchivo.cs" />
+    <Compile Include="Implementaciones\ProcesadorDeLineasSeparadas.cs" />
+    <Compile Include="Implementaciones\SeparadorDeLineasExtraidas.cs" />
+    <Compile Include="Implementaciones\ValidadorFromatoDeFecha.cs" />
+    <Compile Include="Implementaciones\ValidadorLongitudNombreDeEvento.cs" />
     <Compile Include="Modelos\Archivo.cs" />
+    <Compile Include="Modelos\Evento.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -70,6 +80,7 @@
   <ItemGroup>
     <Analyzer Include="packages\xunit.analyzers.0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
