@@ -1,0 +1,16 @@
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\bin\Debug\xunit.runner.reporters.net452.dll
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\bin\Debug\xunit.runner.utility.net452.dll
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\bin\Debug\xunit.abstractions.dll
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\bin\Debug\EventosTests.dll
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\bin\Debug\EventosTests.pdb
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\bin\Debug\Eventos.exe
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\bin\Debug\Eventos.pdb
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\bin\Debug\Eventos.exe.config
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\obj\Debug\EventosTests.csproj.AssemblyReference.cache
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\obj\Debug\EventosTests.csproj.CoreCompileInputs.cache
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\obj\Debug\EventosTests.csproj.CopyComplete
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\obj\Debug\EventosTests.dll
+D:\Proyectos\ProyectosC#\appEventos\EventosTests\obj\Debug\EventosTests.pdb
