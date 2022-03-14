@@ -14,7 +14,7 @@ namespace Eventos.Implementaciones
         {
             if (nombreEvento.Length > LONGITUD_MAXIMA_DE_EVENTO)
             {
-                throw new Exception("Nombre de evento demadiado largo");
+                throw new Exception("Nombre de evento demasiado largo");
             }
             return true;
         }

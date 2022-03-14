@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="appMain.cs" />
     <Compile Include="Definiciones\ILectorDeArchivo.cs" />
     <Compile Include="Definiciones\IProcesadorOcurrenciaDeEventos.cs" />
     <Compile Include="Definiciones\ISeparadorDeLineasExtraidas.cs" />

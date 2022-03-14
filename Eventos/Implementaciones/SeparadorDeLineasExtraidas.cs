@@ -10,7 +10,7 @@ namespace Eventos.Implementaciones
     public class SeparadorDeLineasExtraidas:ISeparadorDeLineasExtraidas
     {
         char CARACTER_PARA_SEPARAR_LINEAS_EXTRAIDAS = ',';
-        public List<String[]> obtenerArrayEventoFecha(String[] arrayLineasExtraidas)
+        public List<String[]> obtenerArrayEventoFecha(List<String> arrayLineasExtraidas)
         {
             List<String[]> arrayEventoFecha = new List<String[]>();
 

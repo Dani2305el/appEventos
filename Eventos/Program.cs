@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Eventos.Implementaciones;
+using Eventos.Modelos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,12 +12,15 @@ namespace Eventos
     {
         static void Main(string[] args)
         {
-            DateTime fechaACtual = DateTime.Now;
-            Console.WriteLine(fechaACtual.ToString());
-            DateTime fechaSimulada = fechaACtual.AddHours(10);
-            Console.WriteLine(fechaSimulada.ToString());
-            Console.WriteLine((fechaSimulada - fechaACtual).TotalHours);
-            Console.ReadLine();
+            String directorio = @"D:\Proyectos\ProyectosC#\appEventos\";
+            String nombreArchivo = "eventos.txt";
+
+            Archivo archivo = new Archivo(directorio, nombreArchivo);
+
+            appMain main = new appMain(archivo, new LectorDeArchivo(), new SeparadorDeLineasExtraidas(), new ValidadorFromatoDeFecha(),
+                new ValidadorLongitudNombreDeEvento(), new ProcesadorOcurrenciaDeEventos(), new VisualizadorDeEventos());
+
+            main.Iniciar();
            
         }
     }

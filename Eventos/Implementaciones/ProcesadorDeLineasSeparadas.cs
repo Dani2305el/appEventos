@@ -19,9 +19,9 @@ namespace Eventos.Implementaciones
         }
         public void procesarLineasSeparadasParaGenerarEvento(List<String[]> arrayDeLineasSeparadas)
         {
+            eventosGenerados = new List<Evento>();
             foreach (String[] array in arrayDeLineasSeparadas)
             {
-                eventosGenerados = new List<Evento>();
                 validadorFormatoDeFecha.validarFormatoDeFecha(array[1]);
                 validadorLongitudNombreDeEvento.validarLongitudNombreDeEvento(array[0]);
                 generarEvento(array[0], array[1]);

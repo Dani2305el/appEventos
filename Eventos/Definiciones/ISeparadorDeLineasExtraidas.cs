@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Eventos.Definiciones
 {
-    interface ISeparadorDeLineasExtraidas
+    public interface ISeparadorDeLineasExtraidas
     {
-        List<String[]> obtenerArrayEventoFecha(String[] arrayLineasExtraidas);
+        List<String[]> obtenerArrayEventoFecha(List<String> arrayLineasExtraidas);
     }
 }
